@@ -35,7 +35,7 @@ android {
 }
 
 mavenPublishing {
-    publishToMavenCentral(com.vanniktech.maven.publish.SonatypeHost.CENTRAL_PORTAL)
+    publishToMavenCentral()
     signAllPublications()
 
     coordinates("io.github.iabanoubsamir", "brandkit", "1.0.0")
